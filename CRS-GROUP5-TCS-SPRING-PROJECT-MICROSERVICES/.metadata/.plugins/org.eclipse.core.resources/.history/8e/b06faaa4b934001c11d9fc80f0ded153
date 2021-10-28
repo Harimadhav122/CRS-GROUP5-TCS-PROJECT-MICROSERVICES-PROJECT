@@ -1,0 +1,48 @@
+/**
+ * 
+ */
+package com.tcs.dao;
+
+import java.sql.SQLException;
+import java.util.List;
+
+import org.springframework.stereotype.Repository;
+
+import com.tcs.bean.Professor;
+import com.tcs.exception.CourseNotFoundException;
+import com.tcs.exception.ProfessorNotFoundException;
+import com.tcs.exception.StudentNotFoundException;
+
+/**
+ * @author VENKY_HARI0
+ *
+ */
+@Repository
+public class ProfessorDAOImpl implements ProfessorDAOInterface {
+
+	@Override
+	public List studentList() throws SQLException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Professor getId(int id) throws SQLException, ProfessorNotFoundException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String assignGrade(int studentId, int courseId, String grade)
+			throws SQLException, StudentNotFoundException, CourseNotFoundException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List courseList() throws SQLException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

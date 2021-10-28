@@ -1,0 +1,1 @@
+16:33:31,108 DEBUG ProfessorDAOImpl,http-nio-8080-exec-2:42 - com.mysql.jdbc.JDBC4PreparedStatement@1aa1560b: select * from students

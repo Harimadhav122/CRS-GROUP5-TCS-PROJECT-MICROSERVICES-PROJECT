@@ -1,0 +1,92 @@
+17:11:18,810 DEBUG UserDAOImpl,http-nio-8080-exec-2:35 - com.mysql.jdbc.JDBC4PreparedStatement@6cc16e78: select * from users where userId= 101
+17:11:18,820 DEBUG UserDAOImpl,http-nio-8080-exec-2:38 - com.mysql.jdbc.JDBC4ResultSet@2366c8d
+17:11:56,491 DEBUG UserDAOImpl,http-nio-8080-exec-3:35 - com.mysql.jdbc.JDBC4PreparedStatement@74fcc112: select * from users where userId= 101
+17:11:56,491 DEBUG UserDAOImpl,http-nio-8080-exec-3:38 - com.mysql.jdbc.JDBC4ResultSet@7e04aa62
+17:14:05,525 DEBUG UserDAOImpl,http-nio-8080-exec-1:35 - com.mysql.jdbc.JDBC4PreparedStatement@655bcff7: select * from users where userId= 101
+17:14:05,529 DEBUG UserDAOImpl,http-nio-8080-exec-1:38 - com.mysql.jdbc.JDBC4ResultSet@d00ab4a
+17:23:17,980 DEBUG UserDAOImpl,http-nio-8080-exec-2:51 - com.mysql.jdbc.JDBC4PreparedStatement@6e2e2dff: select * from courses where courseId= 501
+17:23:17,987 DEBUG UserDAOImpl,http-nio-8080-exec-2:55 - com.mysql.jdbc.JDBC4ResultSet@2b3c1e16
+17:24:07,397 DEBUG UserDAOImpl,http-nio-8080-exec-2:51 - com.mysql.jdbc.JDBC4PreparedStatement@e03f221: select * from courses where courseId= 501
+17:24:07,402 DEBUG UserDAOImpl,http-nio-8080-exec-2:55 - com.mysql.jdbc.JDBC4ResultSet@6a9b97cd
+17:26:34,422 DEBUG UserDAOImpl,http-nio-8080-exec-2:51 - com.mysql.jdbc.JDBC4PreparedStatement@7044308f: select * from courses where courseId= 501
+17:26:34,426 DEBUG UserDAOImpl,http-nio-8080-exec-2:55 - com.mysql.jdbc.JDBC4ResultSet@64dfd89c
+17:26:41,229 DEBUG UserDAOImpl,http-nio-8080-exec-3:51 - com.mysql.jdbc.JDBC4PreparedStatement@35a90933: select * from courses where courseId= 50
+17:26:41,231 DEBUG UserDAOImpl,http-nio-8080-exec-3:55 - com.mysql.jdbc.JDBC4ResultSet@3f516243
+21:56:19,101 DEBUG StudentDAOImpl,http-nio-8080-exec-2:79 - com.mysql.jdbc.JDBC4PreparedStatement@375dc01b: select * from students where studentId= 101
+21:56:19,103 DEBUG StudentDAOImpl,http-nio-8080-exec-2:82 - com.mysql.jdbc.JDBC4ResultSet@1aba7703
+21:58:21,918 DEBUG StudentDAOImpl,http-nio-8080-exec-1:79 - com.mysql.jdbc.JDBC4PreparedStatement@619d0da3: select * from students where studentId= 101
+21:58:21,920 DEBUG StudentDAOImpl,http-nio-8080-exec-1:82 - com.mysql.jdbc.JDBC4ResultSet@7be610
+22:04:10,159 DEBUG StudentDAOImpl,http-nio-8080-exec-5:79 - com.mysql.jdbc.JDBC4PreparedStatement@17ddb558: select * from students where studentId= 10
+22:04:10,160 DEBUG StudentDAOImpl,http-nio-8080-exec-5:82 - com.mysql.jdbc.JDBC4ResultSet@1d25de28
+22:05:04,481 DEBUG StudentDAOImpl,http-nio-8080-exec-6:79 - com.mysql.jdbc.JDBC4PreparedStatement@78b47f69: select * from students where studentId= 10
+22:05:04,482 DEBUG StudentDAOImpl,http-nio-8080-exec-6:82 - com.mysql.jdbc.JDBC4ResultSet@724c1419
+22:07:18,415 DEBUG StudentDAOImpl,http-nio-8080-exec-2:79 - com.mysql.jdbc.JDBC4PreparedStatement@9bcf6d3: select * from students where studentId= 10
+22:07:18,417 DEBUG StudentDAOImpl,http-nio-8080-exec-2:82 - com.mysql.jdbc.JDBC4ResultSet@44bb69f1
+22:07:18,417 ERROR StudentDAOImpl,http-nio-8080-exec-2:91 - Student with id 10 not found
+22:12:43,697 DEBUG StudentDAOImpl,http-nio-8080-exec-2:79 - com.mysql.jdbc.JDBC4PreparedStatement@71a7d140: select * from students where studentId= 101
+22:12:43,701 DEBUG StudentDAOImpl,http-nio-8080-exec-2:82 - com.mysql.jdbc.JDBC4ResultSet@7537ed66
+22:14:05,765 DEBUG StudentDAOImpl,http-nio-8080-exec-1:78 - com.mysql.jdbc.JDBC4PreparedStatement@2ec211e8: select * from students where studentId= 101
+22:14:05,769 DEBUG StudentDAOImpl,http-nio-8080-exec-1:81 - com.mysql.jdbc.JDBC4ResultSet@13d220f9
+22:14:22,448 DEBUG StudentDAOImpl,http-nio-8080-exec-3:78 - com.mysql.jdbc.JDBC4PreparedStatement@2ca382bc: select * from students where studentId= 501
+22:14:22,449 DEBUG StudentDAOImpl,http-nio-8080-exec-3:81 - com.mysql.jdbc.JDBC4ResultSet@265be9cc
+22:14:22,449 ERROR StudentDAOImpl,http-nio-8080-exec-3:90 - Student with id 501 not found
+22:14:28,688 DEBUG StudentDAOImpl,http-nio-8080-exec-4:78 - com.mysql.jdbc.JDBC4PreparedStatement@490d30b0: select * from students where studentId= 601
+22:14:28,689 DEBUG StudentDAOImpl,http-nio-8080-exec-4:81 - com.mysql.jdbc.JDBC4ResultSet@43f55bc0
+22:14:28,690 ERROR StudentDAOImpl,http-nio-8080-exec-4:90 - Student with id 601 not found
+22:15:56,812 DEBUG StudentDAOImpl,http-nio-8080-exec-7:56 - com.mysql.jdbc.JDBC4PreparedStatement@418acb1f: insert into students(studentId,studentName,studentDept) values(558,'adhav','CSE')
+22:15:56,937 DEBUG StudentDAOImpl,http-nio-8080-exec-7:63 - com.mysql.jdbc.JDBC4PreparedStatement@4090ba09: insert into users values(558,'123','student')
+22:17:23,463 DEBUG StudentDAOImpl,http-nio-8080-exec-10:38 - com.mysql.jdbc.JDBC4PreparedStatement@36cdd8b6: update students set studentName='radhav', studentDept='ECE' where studentId=558
+22:17:56,890 DEBUG StudentDAOImpl,http-nio-8080-exec-2:78 - com.mysql.jdbc.JDBC4PreparedStatement@590024b1: select * from students where studentId= 558
+22:17:56,891 DEBUG StudentDAOImpl,http-nio-8080-exec-2:81 - com.mysql.jdbc.JDBC4ResultSet@53f84fc1
+22:18:45,766 DEBUG StudentDAOImpl,http-nio-8080-exec-1:106 - com.mysql.jdbc.JDBC4PreparedStatement@2f8cf296: insert into registeredcourses values(558,611)
+22:19:02,724 DEBUG StudentDAOImpl,http-nio-8080-exec-3:106 - com.mysql.jdbc.JDBC4PreparedStatement@2b9ca047: insert into registeredcourses values(558,61)
+22:25:00,212 ERROR StudentDAOImpl,http-nio-8080-exec-1:117 - Course with id 61 not found
+22:32:57,395 ERROR StudentDAOImpl,http-nio-8080-exec-1:145 - Grade card is not found for student id 101 for course id 50
+00:08:51,019 DEBUG AdminDAOImpl,http-nio-8080-exec-1:142 - com.mysql.jdbc.JDBC4PreparedStatement@88b9b6a: select * from admins where adminId= 258
+00:08:51,021 DEBUG AdminDAOImpl,http-nio-8080-exec-1:144 - com.mysql.jdbc.JDBC4ResultSet@6e10c86d
+00:09:39,259 DEBUG AdminDAOImpl,http-nio-8080-exec-3:118 - com.mysql.jdbc.JDBC4PreparedStatement@15ce512: insert into admins values(208,'anusha')
+00:09:39,384 DEBUG AdminDAOImpl,http-nio-8080-exec-3:125 - com.mysql.jdbc.JDBC4PreparedStatement@4bd8c78a: insert into users values(208,'1234','admin')
+00:10:38,557 DEBUG AdminDAOImpl,http-nio-8080-exec-6:99 - com.mysql.jdbc.JDBC4PreparedStatement@6096b99d: update admins set adminName='anush' where adminId=208
+00:11:37,688 DEBUG AdminDAOImpl,http-nio-8080-exec-7:75 - com.mysql.jdbc.JDBC4PreparedStatement@59db815b: update students set status=** NOT SPECIFIED ** where studentId=** NOT SPECIFIED **
+00:13:18,768 DEBUG AdminDAOImpl,http-nio-8080-exec-10:247 - com.mysql.jdbc.JDBC4PreparedStatement@16f922a1: insert into courses values(528,null,1200,'CSE')
+00:13:18,777 ERROR AdminDAOImpl,http-nio-8080-exec-10:253 - Column 'courseDesc' cannot be null
+00:13:47,838 DEBUG AdminDAOImpl,http-nio-8080-exec-2:247 - com.mysql.jdbc.JDBC4PreparedStatement@324a236f: insert into courses values(528,'C language',1200,'CSE')
+00:24:57,072 DEBUG AdminDAOImpl,http-nio-8080-exec-2:222 - com.mysql.jdbc.JDBC4ResultSet@6d46f908
+00:24:57,082 ERROR AdminDAOImpl,http-nio-8080-exec-2:235 - Duplicate entry '101' for key 1
+00:27:18,192 DEBUG AdminDAOImpl,http-nio-8080-exec-5:222 - com.mysql.jdbc.JDBC4ResultSet@ed8a1c4
+00:28:01,947 DEBUG AdminDAOImpl,http-nio-8080-exec-6:266 - com.mysql.jdbc.JDBC4PreparedStatement@23d5e42d: delete from courses where courseId= ** NOT SPECIFIED **611
+00:32:39,594 DEBUG AdminDAOImpl,http-nio-8080-exec-1:267 - com.mysql.jdbc.JDBC4PreparedStatement@709173e6: delete from courses where courseId= 611
+00:34:58,430 DEBUG AdminDAOImpl,http-nio-8080-exec-5:167 - com.mysql.jdbc.JDBC4PreparedStatement@41a00bef: insert into professor values(396,'kiran','ECE')
+00:34:58,439 ERROR AdminDAOImpl,http-nio-8080-exec-5:180 - Table 'crs.professor' doesn't exist
+00:35:46,982 DEBUG AdminDAOImpl,http-nio-8080-exec-1:167 - com.mysql.jdbc.JDBC4PreparedStatement@4434286f: insert into professors values(396,'kiran','ECE')
+00:35:47,033 DEBUG AdminDAOImpl,http-nio-8080-exec-1:174 - com.mysql.jdbc.JDBC4PreparedStatement@6a5dc0c3: insert into users values(396,'120','professor')
+00:36:49,132 DEBUG AdminDAOImpl,http-nio-8080-exec-5:192 - com.mysql.jdbc.JDBC4PreparedStatement@3e9f85c6: delete from professors where professorId=396
+00:36:49,249 ERROR AdminDAOImpl,http-nio-8080-exec-5:208 - Unknown column 'professorId' in 'where clause'
+01:27:18,750 DEBUG AdminDAOImpl,http-nio-8080-exec-1:42 - com.mysql.jdbc.JDBC4PreparedStatement@7fbd91ce: select * from students
+01:27:33,941 DEBUG AdminDAOImpl,http-nio-8080-exec-3:129 - com.mysql.jdbc.JDBC4PreparedStatement@473ac6dd: select * from courses
+01:28:19,124 DEBUG AdminDAOImpl,http-nio-8080-exec-4:61 - com.mysql.jdbc.JDBC4PreparedStatement@39dc0585: select * from professors where ProfessorId= 123
+01:28:26,921 DEBUG AdminDAOImpl,http-nio-8080-exec-5:61 - com.mysql.jdbc.JDBC4PreparedStatement@47accf60: select * from professors where ProfessorId= 396
+01:29:43,607 DEBUG AdminDAOImpl,http-nio-8080-exec-8:86 - com.mysql.jdbc.JDBC4PreparedStatement@7c718aa7: select * from students where studentId= 521
+01:29:43,610 DEBUG AdminDAOImpl,http-nio-8080-exec-8:95 - com.mysql.jdbc.JDBC4PreparedStatement@610df225: select * from courses where courseId= 635
+01:29:43,610 DEBUG AdminDAOImpl,http-nio-8080-exec-8:103 - com.mysql.jdbc.JDBC4PreparedStatement@783f927f: update grade set grade=** NOT SPECIFIED ** where studentId=** NOT SPECIFIED ** AND courseId=** NOT SPECIFIED **
+01:29:43,618 ERROR AdminDAOImpl,http-nio-8080-exec-8:118 - Can not issue executeUpdate() for SELECTs
+01:31:20,714 DEBUG AdminDAOImpl,http-nio-8080-exec-1:86 - com.mysql.jdbc.JDBC4PreparedStatement@21683c64: select * from students where studentId= 521
+01:31:20,718 DEBUG AdminDAOImpl,http-nio-8080-exec-1:95 - com.mysql.jdbc.JDBC4PreparedStatement@5e10e224: select * from courses where courseId= 635
+01:31:20,719 DEBUG AdminDAOImpl,http-nio-8080-exec-1:103 - com.mysql.jdbc.JDBC4PreparedStatement@5012b721: update grade set grade=** NOT SPECIFIED ** where studentId=** NOT SPECIFIED ** AND courseId=** NOT SPECIFIED **
+01:31:20,725 ERROR AdminDAOImpl,http-nio-8080-exec-1:118 - Can not issue executeUpdate() for SELECTs
+01:33:01,418 DEBUG AdminDAOImpl,http-nio-8080-exec-1:86 - com.mysql.jdbc.JDBC4PreparedStatement@40315e6a: select * from students where studentId= 521
+01:33:01,420 DEBUG AdminDAOImpl,http-nio-8080-exec-1:95 - com.mysql.jdbc.JDBC4PreparedStatement@276c8ff: select * from courses where courseId= 635
+01:33:01,424 DEBUG AdminDAOImpl,http-nio-8080-exec-1:103 - com.mysql.jdbc.JDBC4PreparedStatement@2265fb18: update grade set grade=** NOT SPECIFIED ** where studentId=** NOT SPECIFIED ** AND courseId=** NOT SPECIFIED **
+01:33:01,429 ERROR AdminDAOImpl,http-nio-8080-exec-1:118 - Can not issue executeUpdate() for SELECTs
+01:34:32,795 DEBUG AdminDAOImpl,http-nio-8080-exec-2:86 - com.mysql.jdbc.JDBC4PreparedStatement@b850605: select * from students where studentId= 521
+01:34:32,797 DEBUG AdminDAOImpl,http-nio-8080-exec-2:95 - com.mysql.jdbc.JDBC4PreparedStatement@15179570: select * from courses where courseId= 635
+01:34:32,797 DEBUG AdminDAOImpl,http-nio-8080-exec-2:103 - com.mysql.jdbc.JDBC4PreparedStatement@6aaa8fb6: update grade set grade=** NOT SPECIFIED ** where studentId=** NOT SPECIFIED ** AND courseId=** NOT SPECIFIED **
+01:36:45,061 DEBUG AdminDAOImpl,http-nio-8080-exec-1:86 - com.mysql.jdbc.JDBC4PreparedStatement@2107af3a: select * from students where studentId= 521
+01:36:45,070 DEBUG AdminDAOImpl,http-nio-8080-exec-1:95 - com.mysql.jdbc.JDBC4PreparedStatement@512608f5: select * from courses where courseId= 635
+01:36:45,071 DEBUG AdminDAOImpl,http-nio-8080-exec-1:103 - com.mysql.jdbc.JDBC4PreparedStatement@63ce7330: update grade set grade=** NOT SPECIFIED ** where studentId=** NOT SPECIFIED ** AND courseId=** NOT SPECIFIED **
+01:39:01,018 DEBUG AdminDAOImpl,http-nio-8080-exec-2:86 - com.mysql.jdbc.JDBC4PreparedStatement@528df8b: select * from students where studentId= 521
+01:39:01,020 DEBUG AdminDAOImpl,http-nio-8080-exec-2:95 - com.mysql.jdbc.JDBC4PreparedStatement@51a93c8e: select * from courses where courseId= 635
+01:39:01,021 DEBUG AdminDAOImpl,http-nio-8080-exec-2:105 - com.mysql.jdbc.JDBC4PreparedStatement@2ccde9c2: update grade set grade='pass' where studentId=521 AND courseId=635
+01:40:54,927 DEBUG AdminDAOImpl,http-nio-8080-exec-2:86 - com.mysql.jdbc.JDBC4PreparedStatement@4f3df79c: select * from students where studentId= 521
+01:40:54,931 DEBUG AdminDAOImpl,http-nio-8080-exec-2:95 - com.mysql.jdbc.JDBC4PreparedStatement@69327893: select * from courses where courseId= 635
+01:40:54,933 DEBUG AdminDAOImpl,http-nio-8080-exec-2:105 - com.mysql.jdbc.JDBC4PreparedStatement@48464280: insert into grade values(521,635,'pass')
